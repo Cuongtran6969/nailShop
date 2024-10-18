@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
+:root {
+  --wp--color--black: #000000;
+  --wp--color--cyan-bluish-gray: #abb8c3;
+  --wp--color--white: #ffffff;
+  --wp--color--pale-pink: #f78da7;
+  --wp--color--vivid-red: #cf2e2e;
+  --wp--color--luminous-vivid-orange: #ff6900;
+  --wp--color--luminous-vivid-amber: #fcb900;
+  --wp--color--light-green-cyan: #7bdcb5;
+  --wp--color--vivid-green-cyan: #00d084;
+  --wp--color--pale-cyan-blue: #8ed1fc;
+  --wp--color--vivid-cyan-blue: #0693e3;
+  --wp--color--vivid-purple: #9b51e0;
+  --wp--color--primary: #ff90bc;
+  --wp--color--secondary: #ff90bc;
+  --wp--color--success: #7a9c59;
+  --wp--color--alert: #b20000;
+}
+.header-btn {
+  background-color: var(--wp--color--pale-pink);
+  border-radius: 50%;
+  width: 30px;
+  line-height: 30px;
+  height: 30px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
