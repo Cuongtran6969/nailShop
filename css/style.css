@@ -95,7 +95,7 @@ background-color: var(--wp--color--primary);
 .swiper-slide {
   width: 100%;
   height: 30rem;
-  border-radius: 1.5rem;
+  /* border-radius: 1.5rem; */
   display: flex;
   overflow: hidden;
 }
@@ -278,4 +278,73 @@ footer {
     margin-bottom: 20px;
     text-align: center;
   }
+}
+/* detail */
+.swiper-wrapper {
+  width: 100%;
+}
+.change-number-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--wp--color--primary);
+  width: fit-content;
+  border-radius: 5px;
+}
+.change-number-box input {
+  width: 50px;
+  height: 40px;
+  font-size: 2rem;
+  border: none;
+  text-align: center;
+  outline: none;
+}
+.add-more-btn {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.minus-more-btn {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.add-more-btn,
+.minus-more-btn {
+  width: 40px;
+  height: 40px;
+  font-size: 2rem;
+  border: 0;
+}
+.buy-now-btn,
+.add-cart-btn {
+  padding: 15px 20px;
+  width: fit-content;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  color: #fff;
+}
+.add-cart-btn {
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  justify-content: space-between;
+}
+.filter-left-box {
+  height: 400px;
+  overflow-y: scroll;
+}
+.filter-left-box li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.filter-left-box input {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  color: var(--wp--color--primary);
+}
+.filter-left-box li span {
+  font-size: 1.4rem;
+}
+.pro-discount-box {
+  
 }
