@@ -45,10 +45,11 @@ a {
 .header-btn {
   background-color: var(--wp--color--pale-pink);
   border-radius: 50%;
-  width: 30px;
-  line-height: 30px;
-  height: 30px;
+  width: 40px;
+  line-height: 40px;
+  height: 40px;
   display: flex;
+  font-size: 1.4rem;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -79,6 +80,7 @@ gap: 10px 20px;
   color: var(--wp--color--white);
 }
 .header-menu li a {
+  font-size: 1.4rem;
   color: var(--wp--color--primary);
 }
 .header-menu li.active-nav {
