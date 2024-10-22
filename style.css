@@ -14,6 +14,9 @@ img {
   width: 100%;
   height: 100%;
 }
+li {
+  list-style: none;
+}
 a {
   text-decoration: none;
 }
@@ -60,10 +63,10 @@ a {
   margin: 0 auto;
 }
 .header-menu {
-display: flex;
-align-items: center;
-flex-wrap: wrap;
-gap: 10px 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 20px;
 }
 .header-menu li {
   border: 2px solid var(--wp--color--primary);
@@ -76,7 +79,7 @@ gap: 10px 20px;
   background-color: var(--wp--color--primary);
   scale: 1.1;
 }
-.header-menu li:hover a{
+.header-menu li:hover a {
   color: var(--wp--color--white);
 }
 .header-menu li a {
@@ -84,7 +87,7 @@ gap: 10px 20px;
   color: var(--wp--color--primary);
 }
 .header-menu li.active-nav {
-background-color: var(--wp--color--primary);
+  background-color: var(--wp--color--primary);
 }
 .header-menu li.active-nav a {
   text-decoration: none;
@@ -102,33 +105,33 @@ background-color: var(--wp--color--primary);
   overflow: hidden;
 }
 .paginations {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 .swiper-button-next,
 .swiper-button-prev {
-    width: 5rem !important;
-    height: 5rem !important;
-    line-height: 5rem!important;
-    text-align: center;
-    background: #fff;
-    border-radius: 50%;
+  width: 5rem !important;
+  height: 5rem !important;
+  line-height: 5rem !important;
+  text-align: center;
+  background: #fff;
+  border-radius: 50%;
 }
-.swiper-button-next:after, 
+.swiper-button-next:after,
 .swiper-button-prev:after {
-    font-size: 1.4rem !important;
-    font-weight: 600;
-    color: #3b4b5e;
+  font-size: 1.4rem !important;
+  font-weight: 600;
+  color: #3b4b5e;
 }
 .swiper-pagination-bullet {
-    width: 4rem;
-    height: 1rem;
-    border-radius: 1.2rem;
-    transition: all 0.4s ease;
+  width: 4rem;
+  height: 1rem;
+  border-radius: 1.2rem;
+  transition: all 0.4s ease;
 }
 .swiper-pagination-bullet-active {
-    width: 8rem;
+  width: 8rem;
 }
 .banner img {
   border-radius: 10px;
@@ -140,7 +143,7 @@ background-color: var(--wp--color--primary);
 }
 
 /* product list */
-.item-img img{ 
+.item-img img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -157,7 +160,7 @@ background-color: var(--wp--color--primary);
   position: absolute;
   background-color: var(--wp--color--pale-pink);
   color: #fff;
-  padding: 5px 15px;
+  padding: 2px 15px;
   font-weight: 500;
   font-size: 1.4rem;
   border-radius: 5px;
@@ -170,11 +173,10 @@ background-color: var(--wp--color--primary);
 }
 .news-thumnail a {
 }
-.news-thumnail  img {
+.news-thumnail img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-
 }
 .news-info {
   display: flex;
@@ -191,7 +193,7 @@ background-color: var(--wp--color--primary);
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 2; /* number of lines to show */
-          line-clamp: 2;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
 }
 .news-desc {
@@ -200,13 +202,13 @@ background-color: var(--wp--color--primary);
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 2; /* number of lines to show */
-          line-clamp: 2;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
 }
 /* footer */
 footer {
   background-color: var(--wp--color--primary);
-  color: #ECF0F1;
+  color: #ecf0f1;
   padding: 40px 0;
 }
 
@@ -256,7 +258,7 @@ footer {
 }
 
 .footer-section ul li a:hover {
-  color: #F39C12;
+  color: #f39c12;
 }
 
 .social-media {
@@ -265,13 +267,13 @@ footer {
 }
 
 .social-media li a {
-  color: #ECF0F1;
+  color: #ecf0f1;
   font-size: 16px;
   transition: color 0.3s;
 }
 
 .social-media li a:hover {
-  color: #F39C12;
+  color: #f39c12;
 }
 
 @media screen and (max-width: 768px) {
@@ -348,5 +350,51 @@ footer {
   font-size: 1.4rem;
 }
 .pro-discount-box {
-  
+}
+
+/* pagination */
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pagination-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--wp--color--black);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.pagination-btn:hover {
+  background-color: var(--wp--color--secondary);
+  border: var(--wp--color--secondary);
+}
+.pagination-btn:hover a {
+  color: var(--wp--color--white);
+}
+.pagination-arrow:hover a {
+  color: var(--wp--color--secondary);
+}
+.pagination-btn.pagination-active {
+  background-color: var(--wp--color--pale-pink);
+  border: var(--wp--color--pale-pink);
+}
+.pagination-btn.pagination-active a {
+  color: var(--wp--color--white);
+}
+.pagination-arrow {
+  margin-right: 10px;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.pagination-arrow a,
+.pagination-btn a {
+  color: var(--wp--color--black);
 }
