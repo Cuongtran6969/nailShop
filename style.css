@@ -398,3 +398,94 @@ footer {
 .pagination-btn a {
   color: var(--wp--color--black);
 }
+
+.option-box {
+  background-color: #3b4b5e;
+  height: 100vh;
+  padding: 30px 10px;
+  border-radius: 15px;
+}
+.option-box_item {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.color-option_box {
+  overflow-x: scroll;
+}
+.color-option_range {
+  width: 500px;
+  display: flex;
+  gap: 10px 0;
+  flex-wrap: wrap;
+}
+.bg-color_option {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: red;
+  margin-right: 10px;
+}
+.bg-layer1_option {
+  background-color: #00d084;
+}
+.bg-layer2_option {
+  border-radius: 20px;
+  background-color: rgba(223, 207, 218, 0.233);
+}
+.bg-layer {
+  height: 80px;
+  width: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-right: 10px;
+}
+.bg-layer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.box-point_design {
+   position: relative;
+}
+.box-point_layer{
+  height: 245px;
+  width: 120px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  background-color: red;
+  border-bottom-left-radius: 95px;
+  border-bottom-right-radius: 95px;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-45%);
+}
+.box-choosed {
+  position: absolute;
+  right: 0;
+  width: 400px;
+  background-color: #3b4b5e;
+  top: 10%;
+  padding: 10px;
+  right: 0;
+  border-radius: 20px;
+}
+.box-choosed ul {
+  width: 95%;
+  margin: 0 auto;
+
+}
+.box-choosed ul li {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.box-choosed_item {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: rgba(202, 166, 166, 0.404);
+  margin: 0 auto;
+}
